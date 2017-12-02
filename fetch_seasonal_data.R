@@ -64,3 +64,6 @@ for(i in 1:length(match_text)){
 }
 print("Completed Series # " %+% as.character(series_num) %+% " which is a " %+% all_matches$match_category[series_num] %+% " series.")
 }
+
+master_table <- master_table[!is.na(master_table$first_team), ]
+write.csv(master_table, "cricket_season_2017.csv", row.names = FALSE)
