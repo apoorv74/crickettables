@@ -1,0 +1,75 @@
+"team_name","category","total_matches_played","total_wins","total_runs_scored","total_runs_conceeded","total_wickets_given","total_wickets_taken"
+"Afghanistan","ODI",2,1,347,287,16,16
+"Australia","ODI",3,0,413,713,13,24
+"Bangladesh","ODI",7,3,1729,1630,44,36
+"England","ODI",13,11,3477,3233,75,95
+"Hong Kong","ODI",10,6,2336,1898,74,92
+"India","ODI",14,11,3484,3150,64,115
+"Ireland","ODI",5,NA,942,1270,50,24
+"Kenya","ODI",12,6,2397,2310,100,83
+"Namibia","ODI",12,3,2526,2639,102,74
+"Nepal","ODI",11,4,1986,1981,83,79
+"Netherlands","ODI",10,8,2141,2044,66,90
+"New Zealand","ODI",7,3,1940,1551,55,52
+"Pakistan","ODI",8,6,1899,1893,40,66
+"Papua New Guinea","ODI",15,9,3134,3507,114,119
+"Scotland","ODI",11,7,2561,2480,75,89
+"South Africa","ODI",6,2,1460,1337,42,37
+"Sri Lanka","ODI",13,3,3164,3350,94,75
+"United Arab Emirates","ODI",15,5,3123,3302,125,111
+"West Indies","ODI",13,3,2887,3249,105,69
+"Zimbabwe","ODI",7,4,1653,1775,49,40
+"Afghanistan","T20I",3,0,349,373,26,10
+"England","T20I",4,2,650,654,25,27
+"India","T20I",2,1,364,364,9,8
+"Pakistan","T20I",4,3,511,502,25,27
+"Papua New Guinea","T20I",3,0,380,418,25,13
+"South Africa","T20I",3,1,478,495,18,15
+"Sri Lanka","T20I",1,0,170,174,7,3
+"United Arab Emirates","T20I",3,3,418,380,13,25
+"West Indies","T20I",9,6,1245,1205,47,67
+"Barbados Tridents","T20L",10,4,1477,1385,72,54
+"Delhi Daredevils","T20L",14,6,2219,2255,97,79
+"Derbyshire","T20L",14,8,2365,2406,88,88
+"Durham","T20L",13,3,1914,2049,83,62
+"Essex","T20L",12,5,1931,2051,81,76
+"Glamorgan","T20L",11,8,1814,1764,56,68
+"Gloucestershire","T20L",9,3,1268,1342,65,67
+"Gujarat Lions","T20L",13,4,2253,2319,77,58
+"Guyana Amazon Warriors","T20L",12,6,1713,1624,64,70
+"Hampshire","T20L",14,7,2219,2189,92,94
+"Jamaica Tallawahs","T20L",11,6,1732,1753,67,71
+"Kent","T20L",13,6,2181,2245,74,79
+"Kings XI Punjab","T20L",14,7,2207,2229,83,73
+"Kolkata Knight Riders","T20L",16,9,2484,2539,88,96
+"Lancashire","T20L",12,5,1994,1869,77,72
+"Leicestershire","T20L",13,8,1981,1926,83,80
+"Leinster Lightning","T20L",6,5,932,807,39,50
+"Middlesex","T20L",13,5,2080,2006,95,95
+"Mumbai Indians","T20L",16,11,2636,2486,95,96
+"Munster Reds","T20L",4,NA,577,718,38,19
+"North-West Warriors","T20L",5,3,603,630,29,42
+"Northamptonshire","T20L",10,5,1660,1650,58,57
+"Northern Knights","T20L",5,2,736,693,37,32
+"Nottinghamshire","T20L",15,11,2578,2703,76,103
+"Rising Pune Supergiant","T20L",16,10,2470,2436,90,113
+"Royal Challengers Bangalore","T20L",13,3,1845,2033,97,78
+"Somerset","T20L",12,5,2074,1956,88,73
+"St Kitts and Nevis Patriots","T20L",11,7,1593,1534,52,75
+"St Lucia Stars","T20L",9,NA,1305,1453,66,37
+"Sunrisers Hyderabad","T20L",14,8,2349,2166,62,96
+"Surrey","T20L",13,7,2203,2158,90,82
+"Sussex","T20L",9,5,1425,1418,48,60
+"Trinbago Knight Riders","T20L",13,10,1836,1907,76,90
+"Warwickshire","T20L",16,10,2720,2713,98,109
+"Worcestershire","T20L",13,3,2124,2244,93,63
+"Yorkshire","T20L",12,6,2200,2042,66,83
+"Australia","Test",2,1,925,943,33,40
+"Bangladesh","Test",2,1,943,925,40,33
+"England","Test",7,5,3863,3367,115,134
+"India","Test",3,3,1949,1421,32,60
+"Pakistan","Test",3,2,1467,1467,51,60
+"South Africa","Test",4,1,2013,2300,79,78
+"Sri Lanka","Test",4,1,2158,2682,76,52
+"West Indies","Test",6,2,2821,3030,115,88
+"Zimbabwe","Test",1,0,733,737,20,16
