@@ -127,5 +127,5 @@ team_table <- left_join(total_matches_played, total_wins, by=NULL)
 team_table <- left_join(team_table, team_run_stats, by=NULL)
 team_table <- left_join(team_table, team_wkt_stats, by=NULL)
 team_table <- team_table[team_table$total_matches_played != 0,]
-
+team_table[is.na(team_table)] <- 0
 write.csv(team_table, "aggregated_results_s2017.csv", row.names = F)

@@ -17,8 +17,8 @@ return_team_names <- function(dataframe_obj, column_name, new_col_name){
   return(dataframe_obj)
 }
 
-dataframe_obj <- master_table
-score_col <- "first_team"
+# dataframe_obj <- master_table
+# score_col <- "first_team"
 # name_prefix <- "second_team_"
 
 return_team_score <- function(dataframe_obj, score_col, name_prefix){

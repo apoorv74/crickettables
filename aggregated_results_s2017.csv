@@ -5,7 +5,7 @@
 "England","ODI",13,11,3477,3233,75,95
 "Hong Kong","ODI",10,6,2336,1898,74,92
 "India","ODI",14,11,3484,3150,64,115
-"Ireland","ODI",5,NA,942,1270,50,24
+"Ireland","ODI",5,0,942,1270,50,24
 "Kenya","ODI",12,6,2397,2310,100,83
 "Namibia","ODI",12,3,2526,2639,102,74
 "Nepal","ODI",11,4,1986,1981,83,79
@@ -47,7 +47,7 @@
 "Leinster Lightning","T20L",6,5,932,807,39,50
 "Middlesex","T20L",13,5,2080,2006,95,95
 "Mumbai Indians","T20L",16,11,2636,2486,95,96
-"Munster Reds","T20L",4,NA,577,718,38,19
+"Munster Reds","T20L",4,0,577,718,38,19
 "North-West Warriors","T20L",5,3,603,630,29,42
 "Northamptonshire","T20L",10,5,1660,1650,58,57
 "Northern Knights","T20L",5,2,736,693,37,32
@@ -56,7 +56,7 @@
 "Royal Challengers Bangalore","T20L",13,3,1845,2033,97,78
 "Somerset","T20L",12,5,2074,1956,88,73
 "St Kitts and Nevis Patriots","T20L",11,7,1593,1534,52,75
-"St Lucia Stars","T20L",9,NA,1305,1453,66,37
+"St Lucia Stars","T20L",9,0,1305,1453,66,37
 "Sunrisers Hyderabad","T20L",14,8,2349,2166,62,96
 "Surrey","T20L",13,7,2203,2158,90,82
 "Sussex","T20L",9,5,1425,1418,48,60
