@@ -67,3 +67,24 @@ print("Completed Series # " %+% as.character(series_num) %+% " which is a " %+% 
 
 master_table <- master_table[!is.na(master_table$first_team), ]
 write.csv(master_table, "cricket_season_2017.csv", row.names = FALSE)
+
+master_table <- read.csv("cricket_season_2017.csv",stringsAsFactors = F)
+# Extracting data from table ----------------------------------------------
+
+# Extracting team names
+master_table <- return_team_names(master_table, "first_team", "first_team_name")
+master_table <- return_team_names(master_table, "second_team", "second_team_name")
+
+
+# Extracting scores -------------------------------------------------------
+master_table <- return_team_score(master_table, "first_team", "first_team_")
+master_table <- return_team_score(master_table, "second_team", "second_team_")
+
+
+# Fixing team names -------------------------------------------------------
+
+
+
+
+
+
