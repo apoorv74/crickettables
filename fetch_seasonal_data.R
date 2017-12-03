@@ -99,10 +99,14 @@ total_wins <- data.frame(table(master_table$winning_team_name, master_table$cate
 names(total_wins)[] <- c('team_name', 'category', 'total_wins')
 
 # Total runs scored # Total runs conceeded 
-team_run_stats <- data.frame('team_name' = c(master_table$first_team_name,master_table$first_team_name),
-                                'runs_scored' = as.numeric(c(master_table$first_team_ft_runs_1, master_table$first_team_ft_runs_2)),
+master_table[is.na(master_table)] <- 0
+master_table$total_first_team_runs <- as.numeric(master_table$first_team_ft_runs_1) + as.numeric(master_table$first_team_ft_runs_2)
+master_table$total_second_team_runs <- as.numeric(master_table$second_team_ft_runs_1) + as.numeric(master_table$second_team_ft_runs_2)
+
+team_run_stats <- data.frame('team_name' = c(master_table$first_team_name,master_table$second_team_name),
+                                'runs_scored' = as.numeric(c(master_table$total_first_team_runs, master_table$total_second_team_runs)),
                                 'category' = c(master_table$category,master_table$category),
-                                'runs_conceeded' = as.numeric(c(master_table$second_team_ft_runs_1,master_table$second_team_ft_runs_2)),
+                                'runs_conceeded' = as.numeric(c(master_table$total_second_team_runs,master_table$total_first_team_runs)),
                                 stringsAsFactors = FALSE)
 
 team_run_stats <- team_run_stats %>% group_by(team_name, category) %>% summarise('total_runs_scored' = sum(runs_scored,na.rm = TRUE),
@@ -110,10 +114,10 @@ team_run_stats <- team_run_stats %>% group_by(team_name, category) %>% summarise
 
 
 # Total wickets taken # Total wickets lost
-team_wkt_stats <- data.frame("team_name" = c(master_table$first_team_name),
-                             "category" = c(master_table$category),
-                             "wickets_given" = as.numeric(c(master_table$first_team_total_wickets)),
-                             "wickets_taken" = as.numeric(c(master_table$second_team_total_wickets)), stringsAsFactors = FALSE)
+team_wkt_stats <- data.frame("team_name" = c(master_table$first_team_name,master_table$second_team_name),
+                             "category" = c(master_table$category, master_table$category),
+                             "wickets_given" = as.numeric(c(master_table$first_team_total_wickets,master_table$second_team_total_wickets)),
+                             "wickets_taken" = as.numeric(c(master_table$second_team_total_wickets,master_table$first_team_total_wickets)), stringsAsFactors = FALSE)
 
 team_wkt_stats <- team_wkt_stats %>% group_by(team_name, category) %>% summarise('total_wickets_given' = sum(wickets_given)
                                                                                  ,'total_wickets_taken'= sum(wickets_taken))

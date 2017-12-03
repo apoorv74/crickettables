@@ -103,8 +103,8 @@ return(dataframe_obj)
 
 team_won_database <- data.frame("winning_team_name" = c("Pakistan","West Indies","England","South Africa","Sri Lanka","India",
                                          "Bangladesh","Australia","Namibia","Hong Kong","Netherlands",
-                                         "United Arab Emirates","Kenya","Scotland","PapuaNew Guinea","Nepal","New Zealand",
-                                         "No","Afghanistan","Zimbabwe","Sunrisers Hyderabad","Rising Pune Super Giants",
+                                         "United Arab Emirates","Kenya","Scotland","Papua New Guinea","Nepal","New Zealand",
+                                         "No","Afghanistan","Zimbabwe","Sunrisers Hyderabad","Rising Pune Supergiant",
                                          "Kolkata Knight Riders","Kings XI Punjab","Royal Challengers Bangalore","Mumbai Indians","Delhi Daredevils",
                                          "Gujarat Lions","Leinster Lightning","North-West Warriors","Northern Knights","Match Drawn",
                                          "Warwickshire","Lancashire","Hampshire","Derbyshire",
